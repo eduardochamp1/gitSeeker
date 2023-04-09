@@ -32,11 +32,11 @@
   font-weight: bold;
 }
 
-.status {
+.stats {
   display: flex;
 }
 
-.status div {
+.stats div {
   padding: 0 1rem;
   display: flex;
   flex-direction: column;

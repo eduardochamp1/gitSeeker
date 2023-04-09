@@ -8,7 +8,7 @@ import classes from './User.module.css';
 
 const User = ({login, avatar_url, followers, following, location}: UserProps) => {
   return (
-    <div className='classes.user'>
+    <div className={classes.user}>
       <img src={avatar_url} alt={login} />
       <h2>{login}</h2>
       {location && (
